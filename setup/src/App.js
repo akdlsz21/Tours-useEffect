@@ -27,7 +27,7 @@ function App() {
 			console.log(error);
 		}
 	}
-
+	//useEffect combination of componentDidMount and componentDidUpdate(?)..
 	useEffect(() => {
 		fetchTours();
 	}, []);
